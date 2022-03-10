@@ -26,5 +26,6 @@ All files can be run locally using jupyter.
 3. To test baseline use Generate_Profile_Images_baseline.ipynb. This is based on FreezeD. 
 4. To test on starGAN v2 use starGAN_v2.ipynb. 
 5. Evaluate selected generated images in Face_Verification.ipynb under Experiments by loading the previously downloaded database.pkl file. 
+6. To experiment with a naive Freeze-D implementation for starGAN, replace the solver.py file in the core folder (after downloading the repository) with the solver.py file in this repository. 
 
 
